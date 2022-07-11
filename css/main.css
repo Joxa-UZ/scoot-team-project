@@ -160,13 +160,7 @@ body {
   margin-right: 0;
 }
 
-<<<<<<< HEAD
 .sitenav__link {
-=======
-
-
->>>>>>> 0ffda18ab8dfdc780de5397709d4b85baa5c818b
-
   font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 15px;
@@ -178,15 +172,10 @@ body {
 .header-inner__link {
   margin-left: auto;
   padding: 14px 39px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
 
   font-weight: var(--main-font-weight);
 
-<<<<<<< HEAD
-  font-weight: var(--main-font-weight);
-=======
-  font-weight:var(--main-font-weight);
->>>>>>> 0ffda18ab8dfdc780de5397709d4b85baa5c818b
 
   font-size: 15px;
   line-height: 25px;
@@ -243,7 +232,7 @@ body {
 .hero__title {
   margin: 0;
   margin-bottom: 40px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 56px;
   line-height: 56px;
@@ -285,7 +274,7 @@ body {
 .hero__text {
   margin: 0;
   margin-bottom: 40px;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -294,7 +283,7 @@ body {
 
 .hero__link {
   padding: 14px 39px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 15px;
   line-height: 25px;
@@ -400,7 +389,7 @@ body {
 }
 
 .offer__link {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 24px;
   line-height: 28px;
@@ -411,7 +400,7 @@ body {
 
 .offer__text {
   margin: 0;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -498,7 +487,7 @@ body {
 }
 
 .info__link {
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: var(--main-font-weight);
   font-size: 48px;
@@ -511,7 +500,7 @@ body {
 .info__text {
   margin: 0;
   margin-bottom: 40px;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -520,7 +509,7 @@ body {
 
 .info__link-more {
   padding: 14px 44px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-style: normal;
   font-weight: var(--main-font-weight);
   font-size: 15px;
@@ -599,7 +588,7 @@ body {
 
 .hero-about__toptext {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 56px;
   line-height: 56px;
@@ -633,7 +622,7 @@ body {
 .hero-about__theme {
   margin: 0;
   margin-bottom: 24px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 48px;
   line-height: 48px;
@@ -721,7 +710,7 @@ body {
 .our-values__theme {
   margin: 0;
   margin-bottom: 85px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 48px;
   line-height: 48px;
@@ -786,7 +775,7 @@ body {
 .our-values__minitheme {
   margin: 0;
   margin-bottom: 27px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 24px;
   line-height: 28px;
@@ -810,7 +799,7 @@ body {
 .faq__theme {
   margin: 0;
   margin-bottom: 64px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 48px;
   line-height: 48px;
@@ -826,7 +815,7 @@ body {
 
 .faq__minitheme {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 40px;
   line-height: 48px;
@@ -848,7 +837,7 @@ body {
 .faq__item {
   position: relative;
   margin-bottom: 24px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 24px;
   line-height: 28px;
@@ -928,7 +917,7 @@ body {
 .jobs__topic {
   margin: 0;
   margin-bottom: 8px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 24px;
   line-height: 28px;
@@ -938,7 +927,7 @@ body {
 
 .jobs__text {
   margin: 0;
-  font-family: 'Lexend Deca';
+  font-family: "Lexend Deca";
   font-weight: 400;
   font-size: 15px;
   line-height: 25px;
@@ -947,7 +936,7 @@ body {
 
 .jobs__link {
   padding: 14px 67px;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 15px;
   line-height: 25px;
@@ -988,7 +977,7 @@ body {
 
 .site-article__text {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 48px;
   line-height: 48px;
@@ -1042,7 +1031,7 @@ body {
 
 .site-article__linkthemetop {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 10px;
   line-height: 15px;
@@ -1052,7 +1041,7 @@ body {
 
 .site-article__linkthemeunder {
   margin: 0;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 20px;
   line-height: 24px;
@@ -1095,7 +1084,7 @@ body {
 
 .site-footer__link {
   text-decoration: none;
-  font-family: 'Space Mono';
+  font-family: "Space Mono";
   font-weight: var(--main-font-weight);
   font-size: 15px;
   line-height: 25px;
