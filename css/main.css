@@ -157,7 +157,7 @@ body {
 }
 
 
-.sitenav__link {
+
 
 .sitenav__link{
 
@@ -175,7 +175,7 @@ body {
   font-family: 'Space Mono';
 
   font-weight: var(--main-font-weight);
-=======
+
   font-weight:var(--main-font-weight);
 
   font-size: 15px;
