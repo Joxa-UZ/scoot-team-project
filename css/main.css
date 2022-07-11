@@ -160,7 +160,12 @@ body {
   margin-right: 0;
 }
 
+<<<<<<< HEAD
 .sitenav__link {
+=======
+
+
+>>>>>>> 0ffda18ab8dfdc780de5397709d4b85baa5c818b
 
   font-family: "Space Mono";
   font-weight: var(--main-font-weight);
@@ -177,7 +182,11 @@ body {
 
   font-weight: var(--main-font-weight);
 
+<<<<<<< HEAD
   font-weight: var(--main-font-weight);
+=======
+  font-weight:var(--main-font-weight);
+>>>>>>> 0ffda18ab8dfdc780de5397709d4b85baa5c818b
 
   font-size: 15px;
   line-height: 25px;
