@@ -1,16 +1,16 @@
 /* VARIABLES */
 
-:root{
-  --yellow-color : #FCB72B;
-  --dark-navy-color : #495567;
-  --dim-gray-color : #939CAA;
-  --light-gray-color : #E5ECF4;
-  --snow-color : #F2F5F9;
-  --light-yellow-color : #FFF4DF;
+:root {
+  --yellow-color: #FCB72B;
+  --dark-navy-color: #495567;
+  --dim-gray-color: #939CAA;
+  --light-gray-color: #E5ECF4;
+  --snow-color: #F2F5F9;
+  --light-yellow-color: #FFF4DF;
   --white-color: #fff;
   /* --main-bg-color : #fff; */
   /* --main-font-size : 16px; */
-  --main-font-weight : 700;
+  --main-font-weight: 700;
   /* --main-line-height : 1.5; */
 }
 
@@ -19,8 +19,10 @@
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
-  src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url("../fonts/space-mono-v11-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* lexend-deca-regular - latin */
@@ -28,24 +30,27 @@
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
-  src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"), /* Chrome 26+, Opera 23+, Firefox 39+ */
-       url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+    url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
 /* GENERAL */
-*{
+* {
   box-sizing: border-box;
 }
-html{
+
+html {
   height: 100%;
 }
 
-img{
+img {
   display: block;
   height: auto;
 }
 
-body{
+body {
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -73,7 +78,7 @@ body{
 
 /* CONTAINER */
 
-.container{
+.container {
   max-width: 1150px;
   margin-right: auto;
   margin-left: auto;
@@ -82,11 +87,71 @@ body{
 }
 
 /* STICKY-FOOTER */
-.site-main{
+.site-main {
   flex-grow: 1;
 }
 
 /* header start */
+.site-header {
+  padding: 22px 0;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+}
+
+.site-logo {
+  margin-right: 58px;
+}
+
+.site-logo__img{
+color: #495567;
+}
+
+.sitenav__list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+}
+
+.sitenav__item {
+  margin-right: 32px;
+}
+
+.sitenav__item:last-child {
+  margin-right: 0;
+}
+
+.sitenav__link{
+font-family: "Space Mono";
+  font-weight: var(--main-font-weight);
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-gray-color);
+  text-decoration: none;
+}
+
+.header-inner__link{
+  margin-left: auto;
+padding: 14px 39px;
+font-family: 'Space Mono';
+font-weight:var(--main-font-weight);
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+color: var(--white-color);
+background-color: var(--yellow-color);
+text-decoration: none;
+border: 3px solid transparent;
+}
+
+.header-inner__link:hover{
+  color: var(--yellow-color);
+  background-color: var(--white-color);
+  border: 3px solid #FCB72B;
+}
 
 /* header finish */
 
@@ -101,5 +166,3 @@ body{
 /* footer start */
 
 /* footer finish */
-
-
