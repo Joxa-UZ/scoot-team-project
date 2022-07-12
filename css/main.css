@@ -221,12 +221,13 @@ body {
 .hero__box::after {
   content: "";
   background-image: url("../images/hero-after-img.svg");
-  background-size: contain;
+  background-repeat: no-repeat;
+  background-size: 234px 62px;
   width: 234px;
   height: 62px;
   position: absolute;
-  bottom: calc(50% + -170px);
-  right: calc(5% + -845px);
+  bottom: calc(50% + -186px);
+  right: calc(5% + -881px);
 }
 
 .hero__title {
@@ -250,11 +251,11 @@ body {
   content: "";
   background-image: url("../images/home-hero-before.svg");
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 203px 15px;
   width: 203px;
   height: 15px;
   position: absolute;
-  top: 47px;
+  top: 44px;
   left: -266px;
 }
 
@@ -263,12 +264,11 @@ body {
   content: "";
   background-image: url("../images/home-icon-right-hero.svg");
   background-repeat: no-repeat;
-  background-size: contain;
   width: 500px;
-  height: 138px;
+  height: 150px;
   position: absolute;
-  top: 47px;
-  right: -571px;
+  top: 42px;
+  right: -543px
 }
 
 .hero__text {
@@ -433,12 +433,24 @@ body {
   content: "";
   background-image: url("../images/icon-right.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 900px;
-  height: 99px;
+  width: 833px;
+  height: 205px;
   position: absolute;
-  right: -377px;
-  top: 308px;
+  right: -306px;
+  top: 293px;
+  z-index: 1;
+}
+
+.info__item--care::after {
+  content: "";
+  background-image: url("../images/icon-right.svg");
+  background-repeat: no-repeat;
+  background-size: 833px 205px;
+  width: 833px;
+  height: 205px;
+  position: absolute;
+  right: -230px;
+  top: 275px;
   z-index: 1;
 }
 
@@ -447,11 +459,11 @@ body {
   background-image: url("../images/icon-left.svg");
   background-repeat: no-repeat;
   background-size: contain;
-  width: 900px;
-  height: 99px;
+  width: 703px;
+  height: 139px;
   position: absolute;
-  left: -338px;
-  top: 28px;
+  left: -492px;
+  top: 9px;
   z-index: 1;
 }
 
@@ -459,12 +471,11 @@ body {
   content: "";
   background-image: url("../images/icon-right.svg");
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 900px;
-  height: 99px;
+  width: 703px;
+  height: 139px;
   position: absolute;
-  right: -716px;
-  top: 111px;
+  right: -499px;
+  top: 69px;
   z-index: 1;
 }
 
@@ -536,7 +547,7 @@ body {
 .info__img-box--easy::after {
   content: "";
   position: absolute;
-  right: -500px;
+  right: -561px;
   top: 0px;
   background-image: url("../images/home-img-after.svg");
   background-repeat: no-repeat;
@@ -550,7 +561,7 @@ body {
 .info__img-box--coming::before {
   content: "";
   position: absolute;
-  left: -500px;
+  left: -556px;
   top: 0px;
   background-image: url("../images/home-img-after.svg");
   background-repeat: no-repeat;
@@ -562,7 +573,7 @@ body {
 .info__img-box--money::after {
   content: "";
   position: absolute;
-  right: -500px;
+  right: -556px;
   top: 0px;
   background-image: url("../images/home-img-after.svg");
   background-repeat: no-repeat;
