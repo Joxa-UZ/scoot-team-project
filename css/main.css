@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 /* VARIABLES */
 
 :root {
@@ -19,25 +27,25 @@
   font-family: "Space Mono";
   font-style: normal;
   font-weight: 700;
-
+  
   src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/space-mono-v11-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
-
-
+  
+  
+  
   src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/space-mono-v11-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
-
+  
+  
   src: url("../fonts/space-mono-v11-latin-700.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/space-mono-v11-latin-700.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/space-mono-v11-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
+  
 }
 
 /* lexend-deca-regular - latin */
@@ -45,30 +53,31 @@
   font-family: "Lexend Deca";
   font-style: normal;
   font-weight: 400;
-
-
+  
+  
   src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
-
-
+  
+  
+  
   src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
-
+  
+  
   src: url("../fonts/lexend-deca-v16-latin-regular.woff2") format("woff2"),
-    /* Chrome 26+, Opera 23+, Firefox 39+ */
-    url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
+  /* Chrome 26+, Opera 23+, Firefox 39+ */
+  url("../fonts/lexend-deca-v16-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-
+  
 }
 
 /* GENERAL */
 * {
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
@@ -82,7 +91,12 @@ img {
 }
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
   height: 100%;
   margin: 0;
@@ -103,6 +117,7 @@ body {
   padding: 0;
   border: 0;
   white-space: nowrap;
+  -webkit-clip-path: inset(100%);
   clip-path: inset(100%);
   clip: rect(0 0 0 0);
   overflow: hidden;
@@ -120,6 +135,8 @@ body {
 
 /* STICKY-FOOTER */
 .site-main {
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
   flex-grow: 1;
 }
 
@@ -129,7 +146,11 @@ body {
 }
 
 .header-inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -141,13 +162,15 @@ body {
 
 
 .site-logo__img {
-
+  
   color: #495567;
 }
 
 .sitenav__list {
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   list-style: none;
 }
@@ -173,10 +196,10 @@ body {
   margin-left: auto;
   padding: 14px 39px;
   font-family: "Space Mono";
-
+  
   font-weight: var(--main-font-weight);
-
-
+  
+  
   font-size: 15px;
   line-height: 25px;
   text-align: center;
@@ -184,13 +207,17 @@ body {
   background-color: var(--yellow-color);
   text-decoration: none;
   border: 3px solid transparent;
-
+  
+  -webkit-transition: 0.4s ease;
+  
+  -o-transition: 0.4s ease;
+  
   transition: 0.4s ease;
 }
 
 
 .header-inner__link:hover {
-
+  
   color: var(--yellow-color);
   background-color: var(--white-color);
   border: 3px solid #FCB72B;
@@ -208,7 +235,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
-
+  
 }
 
 
@@ -292,6 +319,8 @@ body {
   background-color: var(--yellow-color);
   border: 3px solid transparent;
   text-decoration: none;
+  -webkit-transition: 0.4s ease;
+  -o-transition: 0.4s ease;
   transition: 0.4s ease;
 }
 
@@ -313,13 +342,17 @@ body {
 
 
 .offer__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
   list-style: none;
   position: relative;
-
+  
 }
 
 .offer__item::before {
@@ -422,8 +455,14 @@ body {
 }
 
 .info__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 160px;
   position: relative;
@@ -480,6 +519,9 @@ body {
 }
 
 .info__item:nth-child(2) {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
   flex-direction: row-reverse;
 }
 
@@ -530,6 +572,8 @@ body {
   background-color: var(--yellow-color);
   text-decoration: none;
   border: 3px solid transparent;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
@@ -537,7 +581,7 @@ body {
   color: var(--yellow-color);
   background-color: var(--white-color);
   border: 3px solid #FCB72B;
-
+  
 }
 
 .info__img-box {
@@ -554,7 +598,7 @@ body {
   background-size: contain;
   width: 445px;
   height: 445px;
-
+  
 }
 
 
@@ -615,13 +659,17 @@ body {
 .hero-about__list {
   margin: 0;
   padding: 0;
-
+  
   list-style: none;
 }
 
 .hero-about__item {
   position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-bottom: 120px;
 }
@@ -731,8 +779,14 @@ body {
 }
 
 .our-values__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin: 0;
   padding: 0;
@@ -820,7 +874,11 @@ body {
 }
 
 .faq__how {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
 }
 
@@ -871,7 +929,11 @@ body {
 }
 
 .faq__list[open] .faq__item::after {
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
   transform: rotate(180deg);
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
   transition: 0.5s;
 }
 
@@ -914,8 +976,14 @@ body {
 }
 
 .jobs__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   padding: 32px 64px 35px 40px;
   background-color: #F2F5F9;
@@ -956,6 +1024,8 @@ body {
   background-color: var(--yellow-color);
   text-decoration: none;
   border: 3px solid transparent;
+  -webkit-transition: 0.5s ease;
+  -o-transition: 0.5s ease;
   transition: 0.5s ease;
 }
 
@@ -963,10 +1033,90 @@ body {
   color: var(--yellow-color);
   background-color: transparent;
   border: 3px solid #FCB72B;
-
+  
 }
 
 /* careers page finish  */
+
+/* location page */
+.hero-about__top--location{
+  /* position: relative; */
+  background-image: url(../images/care.png);
+}
+.hero-about__toptext--location{
+  position: relative;
+  z-index: 4;
+}
+.hero-about__toptext--location::after{
+  content: "";
+  position: absolute;
+  top: 30%;
+  right: -14%;
+  z-index: 4;
+  background-image: url(../images/locations-circle.svg);
+  background-repeat: no-repeat;
+  display: block;
+  width: 234px;
+  height: 62px;
+}
+.location-section{
+  padding: 120px 0px;
+}
+.your-city{
+  padding-bottom: 120px;
+}
+.your-city__list{
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.your-city__item:first-child{
+  width: 351px;
+}
+.your-city__text{
+  margin: 0;
+  font-family: 'Space Mono';
+  font-weight: var(--main-font-weight);
+  font-size: 48px;
+  line-height: 48px;
+  letter-spacing: -2.14286px;
+  color: var(--dark-navy-color);
+}
+.your-city__item:nth-child(2){
+  width: 445px;
+  font-size: 15px;
+  line-height: 25px;
+  color: var(--dim-gray-color);
+}
+.your-city__link{
+  text-decoration: none;
+  padding: 14px 44px;
+  font-weight: var(--main-font-weight);
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: var(--white-color);
+  background-color: var(--yellow-color);
+  border: 3px solid transparent;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+}
+.your-city__link:hover{
+  border: 3px solid var(--yellow-color);
+  background-color: transparent;
+  color: var(--yellow-color);
+}
+/* location page */
 
 /* footer start */
 .site-article {
@@ -978,7 +1128,11 @@ body {
 }
 
 .site-article__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -997,16 +1151,24 @@ body {
 }
 
 .site-article__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   margin-left: auto;
   padding: 0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   list-style: none;
 }
 
 .site-article__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
   margin-right: 18px;
   padding: 8px 16px;
@@ -1067,7 +1229,11 @@ body {
 }
 
 .site-footer__box {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -1081,7 +1247,11 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
   align-items: center;
 }
 
@@ -1103,6 +1273,8 @@ body {
 }
 
 .site-footer__social {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   margin: 0;
   margin-left: auto;
